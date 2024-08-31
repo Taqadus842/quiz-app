@@ -1,0 +1,12 @@
+/* General Styles for the App */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the app */
+    color: #ffffff; /* White text */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  

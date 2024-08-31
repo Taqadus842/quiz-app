@@ -1,0 +1,54 @@
+/* ReviewPage.css */
+
+.review-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.review-container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.questions-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.question-item {
+    margin-bottom: 20px;
+}
+
+.correct-answer {
+    color: #00ff00;
+}
+
+.incorrect-answer {
+    color: #ff0000;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+    background-color: #cc0000;
+}

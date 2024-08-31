@@ -1,0 +1,49 @@
+/* ResultPage.css */
+
+.result-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.result-container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.review-button, .restart-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.review-button {
+    background-color: #00ff00;
+}
+
+.review-button:hover {
+    background-color: #00cc00;
+}
+
+.restart-button {
+    background-color: #ff0000;
+}
+
+.restart-button:hover {
+    background-color: #cc0000;
+}
